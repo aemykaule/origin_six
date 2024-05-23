@@ -25,7 +25,7 @@
   content: "\e907";
 }
 .icon-close:before {
-  content: "\e906";
+  content: "\e900";
 }
 .icon-cosmetic:before {
   content: "\e907";
@@ -43,7 +43,7 @@
   content: "\e90b";
 }
 .icon-menu:before {
-  content: "\e90c";
+  content: "\e906";
 }
 .icon-trim:before {
   content: "\e90d";
