@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- Icomoon -->
     <link rel="stylesheet" href="./assets/css/icomoon.css">
     <!-- Css -->
@@ -20,11 +22,11 @@
             <!-- Menu Desktop -->
             <div class="menu">
                 <ul class="grid">
-                    <li><a href="" class="title">Início</a></li>
-                    <li><a href="" class="title">Sobre</a></li>
-                    <li><a href="" class="title">Serviços</a></li>
-                    <li><a href="" class="title">Depoimentos</a></li>
-                    <li><a href="" class="title">Contato</a></li>
+                    <li><a href="#home" class="title">Início</a></li>
+                    <li><a href="#about" class="title">Sobre</a></li>
+                    <li><a href="#services" class="title">Serviços</a></li>
+                    <li><a href="#testimonials" class="title">Depoimentos</a></li>
+                    <li><a href="contact" class="title">Contato</a></li>
                 </ul>
             </div>
             <!-- Menu Mobile -->
@@ -33,13 +35,112 @@
         </nav>
     </header>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <!-- Home -->
+        <section class="section" id="home">
+            <div class="container grid">
+                <div class="image">
+                    <img src="./assets/img/foto01.jpg" alt="mulher sorrindo penteando outra mulher">
+                </div>
+                <div class="text">
+                    <h2 class="title"> Saúde natural para os seus cabelos</h2>
+                    <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais</p>
+                    <a href="#" class="button">Agendar um horário</a>
+                </div>
+            </div>
+        </section>
+        <div class="divider-1"></div>
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image">
+                    <img src="./assets/img/foto02.jpg" alt="Três mulheres sorrindo com equipamentos de corte de cabelo">
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente illum tenetur optio eos dicta blanditiis voluptate praesentium nam, deserunt nostrum maxime, eaque, molestias debitis molestiae commodi fuga velit. Suscipit, laborum.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, quos suscipit possimus magni esse saepe aliquid incidunt dignissimos reiciendis, at hic atque distinctio? Quisquam laboriosam vero alias voluptatibus illum recusandae!</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nihil error aperiam odit placeat explicabo voluptatibus. Placeat eaque quaerat saepe, nisi obcaecati dolorem itaque quae, harum ducimus, dolores odit numquam.</p>
+                </div>
+            </div>
+        </section>
+        <div class="divider-2"></div>
+        <!-- Services -->
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p class="subtitle">Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais.</p>
+                </header>
+                <div class="cards grid">
+                    <div class="card">
+                        <i class="icon-woman-hair"></i>
+                        <h3 class="title">Terapia capilar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quo itaque magni odit corporis ipsa labore odio. Cumque optio id mollitia earum illo facere, architecto voluptate odio libero modi doloremque.</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-trim"></i>
+                        <h3 class="title">Cortes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quo itaque magni odit corporis ipsa labore odio. Cumque optio id mollitia earum illo facere, architecto voluptate odio libero modi doloremque.</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-cosmetic"></i>
+                        <h3 class="title">Tratamentos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quo itaque magni odit corporis ipsa labore odio. Cumque optio id mollitia earum illo facere, architecto voluptate odio libero modi doloremque.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider-1"></div>
+        <!-- Testimonials -->
+        <section class="section" id="testimonials">
+            <div class="container">
+                <header>
+                    <h2 class="title"> Depoimentos de quem já passou por aqui.</h2>
+                </header>
+                <div class="testimonials swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p><span>&ldquo;</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, totam laborum! Id ipsa nesciunt eligendi laborum amet, itaque laboriosam, libero atque est, unde obcaecati exercitationem ex autem deserunt! Voluptatum, eum!</p>
+                                <cite>
+                                    <img src="./assets/img/mulher-oscar.jpg" alt="mulher segurando um oscar">
+                                    Clarisse Lispector
+                                </cite>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p><span>&ldquo;</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, totam laborum! Id ipsa nesciunt eligendi laborum amet, itaque laboriosam, libero atque est, unde obcaecati exercitationem ex autem deserunt! Voluptatum, eum!</p>
+                                <cite>
+                                    <img src="./assets/img/mulher-zoada.jpg" alt="mulher com cara duvidosa">
+                                    Jane Austen
+                                </cite>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p><span>&ldquo;</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, totam laborum! Id ipsa nesciunt eligendi laborum amet, itaque laboriosam, libero atque est, unde obcaecati exercitationem ex autem deserunt! Voluptatum, eum!</p>
+                                <cite>
+                                    <img src="./assets/img/loira-oxigenada.jpg" alt="loira oxigenada">
+                                    Agatha Christie
+                                </cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Paginação -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <div class="divider-2"></div>
+        <!-- Contact -->
+        <section class="section" id="contact"></section>
     </main>
     <footer></footer>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>"></https:>
     <script src="./src/js/script.js"></script>
 </body>
 </html>
