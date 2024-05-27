@@ -31,16 +31,16 @@
   content: "\e901";
 }
 .icon-facebook:before {
-  content: "\e908";
+  content: "\e902";
 }
 .icon-instagram:before {
-  content: "\e909";
+  content: "\e903";
 }
 .icon-mail:before {
   content: "\e904";
 }
 .icon-map-pin:before {
-  content: "\e90b";
+  content: "\e905";
 }
 .icon-menu:before {
   content: "\e906";
@@ -55,5 +55,5 @@
   content: "\e90a";
 }
 .icon-youtube:before {
-  content: "\e910";
+  content: "\e90b";
 }
